@@ -1,6 +1,6 @@
-/******************************
-TERRAGRUNT CONFIGURATIONS
-******************************/
+# ---------------------------------------------------------------------------------------------------------------------
+# TERRAGRUNT CONFIGURATIONS
+# ---------------------------------------------------------------------------------------------------------------------
 
 # Include the root terragrunt.hcl configurations gathering together
 # the needed variables and backend configurations
