@@ -2,7 +2,7 @@ version: 3
 
 projects:
 - name: sandbox-demo
-  dir: deployments/sandbox-demo/us-east-1/sandbox-demo
+  dir: deployments/sandbox-demo/us-east-1/sandbox-demo/infra
   autoplan:
     # enabled: true
     when_modified: ["**/*.hcl", "**/*.tf*"]
