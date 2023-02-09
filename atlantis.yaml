@@ -4,12 +4,14 @@ projects:
 - name: sandbox-deom
   dir: deployment/sandbox-deom
   autoplan:
-    when_modified: ["**/*.hcl", "**/*.tf*"]
+    enabled: true
+    # when_modified: ["**/*.hcl", "**/*.tf*"]
 
 - name: sandbox-deom-2
   dir: deployment/sandbox-deom-2
   autoplan:
-    when_modified: ["**/*.hcl", "**/*.tf*"]
+    enabled: true
+    # when_modified: ["**/*.hcl", "**/*.tf*"]
 
 # - name: central-iam-roles
 #   dir: central/basic/iam-roles
