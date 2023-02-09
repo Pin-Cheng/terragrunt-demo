@@ -2,9 +2,9 @@ version: 3
 
 projects:
 - name: sandbox-demo
-  dir: terragrunt-demo/deployments/sandbox-demo/us-east-1/sandbox-demo
+  dir: deployments/sandbox-demo/us-east-1/sandbox-demo/infra
   autoplan:
-    when_modified: ["**/*.hcl"]
+    when_modified: ["../env.hcl"]
 
 # - name: central-iam-roles
 #   dir: central/basic/iam-roles
