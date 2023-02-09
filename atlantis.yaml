@@ -2,13 +2,13 @@ version: 3
 
 projects:
 - name: sandbox-deom
-  dir: deployments/sandbox-deom
+  dir: deployments/sandbox-deom/*
   autoplan:
     enabled: true
     # when_modified: ["**/*.hcl", "**/*.tf*"]
 
 - name: sandbox-deom-2
-  dir: deployments/sandbox-deom-2
+  dir: deployments/sandbox-deom-2/*
   autoplan:
     enabled: true
     # when_modified: ["**/*.hcl", "**/*.tf*"]
